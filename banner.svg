@@ -1,158 +1,100 @@
-<svg width="900" height="280" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0a0e1a"/>
-      <stop offset="50%" style="stop-color:#0d1220"/>
-      <stop offset="100%" style="stop-color:#0a0e1a"/>
+      <stop offset="0%" style="stop-color:#060910"/>
+      <stop offset="100%" style="stop-color:#0d1220"/>
     </linearGradient>
-    <linearGradient id="amber" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="scanline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0"/>
+      <stop offset="50%" style="stop-color:#00d4ff;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#00d4ff;stop-opacity:0"/>
+    </linearGradient>
+    <linearGradient id="amberline" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style="stop-color:#f5a623;stop-opacity:0"/>
       <stop offset="50%" style="stop-color:#f5a623;stop-opacity:1"/>
       <stop offset="100%" style="stop-color:#f5a623;stop-opacity:0"/>
     </linearGradient>
-    <linearGradient id="cyan" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0"/>
-      <stop offset="50%" style="stop-color:#00d4ff;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#00d4ff;stop-opacity:0"/>
-    </linearGradient>
-    <filter id="glow-amber">
-      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
-      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="glow-cyan">
-      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
-      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="glow-strong">
-      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
-      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
+    <filter id="glow-amber"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="glow-cyan"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="glow-big"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
 
-  <!-- Background -->
-  <rect width="900" height="280" fill="url(#bg)" rx="12"/>
+  <rect width="900" height="200" fill="url(#bg)" rx="8"/>
 
-  <!-- Grid lines horizontal -->
-  <g opacity="0.07" stroke="#00d4ff" stroke-width="0.5">
-    <line x1="0" y1="40" x2="900" y2="40"/>
-    <line x1="0" y1="80" x2="900" y2="80"/>
-    <line x1="0" y1="120" x2="900" y2="120"/>
-    <line x1="0" y1="160" x2="900" y2="160"/>
-    <line x1="0" y1="200" x2="900" y2="200"/>
-    <line x1="0" y1="240" x2="900" y2="240"/>
-  </g>
-  <!-- Grid lines vertical -->
-  <g opacity="0.07" stroke="#00d4ff" stroke-width="0.5">
-    <line x1="90" y1="0" x2="90" y2="280"/>
-    <line x1="180" y1="0" x2="180" y2="280"/>
-    <line x1="270" y1="0" x2="270" y2="280"/>
-    <line x1="360" y1="0" x2="360" y2="280"/>
-    <line x1="450" y1="0" x2="450" y2="280"/>
-    <line x1="540" y1="0" x2="540" y2="280"/>
-    <line x1="630" y1="0" x2="630" y2="280"/>
-    <line x1="720" y1="0" x2="720" y2="280"/>
-    <line x1="810" y1="0" x2="810" y2="280"/>
+  <!-- Grid -->
+  <g opacity="0.06" stroke="#00d4ff" stroke-width="0.5">
+    <line x1="0" y1="50" x2="900" y2="50"/><line x1="0" y1="100" x2="900" y2="100"/><line x1="0" y1="150" x2="900" y2="150"/>
+    <line x1="100" y1="0" x2="100" y2="200"/><line x1="200" y1="0" x2="200" y2="200"/><line x1="300" y1="0" x2="300" y2="200"/>
+    <line x1="400" y1="0" x2="400" y2="200"/><line x1="500" y1="0" x2="500" y2="200"/><line x1="600" y1="0" x2="600" y2="200"/>
+    <line x1="700" y1="0" x2="700" y2="200"/><line x1="800" y1="0" x2="800" y2="200"/>
   </g>
 
-  <!-- Animated scan line -->
-  <rect x="0" y="0" width="900" height="2" fill="url(#cyan)" opacity="0.6">
-    <animateTransform attributeName="transform" type="translate" values="0,0;0,278;0,0" dur="4s" repeatCount="indefinite"/>
+  <!-- Scan line animation -->
+  <rect x="0" y="0" width="900" height="1.5" fill="url(#scanline)" opacity="0.7">
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,198;0,0" dur="3.5s" repeatCount="indefinite"/>
   </rect>
 
   <!-- Corner brackets -->
-  <g stroke="#f5a623" stroke-width="2" fill="none" filter="url(#glow-amber)">
-    <polyline points="15,35 15,15 35,15"/>
-    <polyline points="865,15 885,15 885,35"/>
-    <polyline points="15,245 15,265 35,265"/>
-    <polyline points="865,265 885,265 885,245"/>
+  <g stroke="#f5a623" stroke-width="1.5" fill="none" filter="url(#glow-amber)">
+    <polyline points="12,28 12,12 28,12"/>
+    <polyline points="872,12 888,12 888,28"/>
+    <polyline points="12,172 12,188 28,188"/>
+    <polyline points="872,188 888,188 888,172"/>
   </g>
 
-  <!-- Animated dots on corners -->
-  <circle cx="15" cy="15" r="3" fill="#f5a623" filter="url(#glow-amber)">
-    <animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="885" cy="15" r="3" fill="#f5a623" filter="url(#glow-amber)">
-    <animate attributeName="opacity" values="0.2;1;0.2" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="15" cy="265" r="3" fill="#00d4ff" filter="url(#glow-cyan)">
-    <animate attributeName="opacity" values="1;0.3;1" dur="3s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="885" cy="265" r="3" fill="#00d4ff" filter="url(#glow-cyan)">
-    <animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/>
-  </circle>
+  <!-- Blinking corner dots -->
+  <circle cx="12" cy="12" r="2.5" fill="#f5a623"><animate attributeName="opacity" values="1;0.1;1" dur="2s" repeatCount="indefinite"/></circle>
+  <circle cx="888" cy="12" r="2.5" fill="#f5a623"><animate attributeName="opacity" values="0.1;1;0.1" dur="2s" repeatCount="indefinite"/></circle>
+  <circle cx="12" cy="188" r="2.5" fill="#00d4ff"><animate attributeName="opacity" values="1;0.2;1" dur="2.5s" repeatCount="indefinite"/></circle>
+  <circle cx="888" cy="188" r="2.5" fill="#00d4ff"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.5s" repeatCount="indefinite"/></circle>
 
-  <!-- Floating data particles -->
-  <g fill="#f5a623" opacity="0.4" font-family="monospace" font-size="9">
-    <text x="30" y="60">01</text>
-    <text x="820" y="100">FF</text>
-    <text x="50" y="220">A3</text>
-    <text x="840" y="200">7E</text>
-    <text x="400" y="30">10</text>
-    <text x="600" y="260">B2</text>
-  </g>
-  <g fill="#00d4ff" opacity="0.3" font-family="monospace" font-size="9">
-    <text x="100" y="40">◆</text>
-    <text x="780" y="240">◆</text>
-    <text x="440" y="260">▸</text>
-    <text x="460" y="25">▸</text>
+  <!-- Left side data panel -->
+  <g font-family="'Courier New',monospace" font-size="8" fill="#f5a623" opacity="0.5">
+    <text x="20" y="55" letter-spacing="2">SYS.BOOT</text>
+    <text x="20" y="70" letter-spacing="2">v2.0.26</text>
+    <text x="20" y="90" fill="#00d4ff" letter-spacing="1">● ONLINE</text>
+    <text x="20" y="110" letter-spacing="1">DELHI/IN</text>
   </g>
 
-  <!-- Glowing center line -->
-  <line x1="60" y1="140" x2="840" y2="140" stroke="url(#amber)" stroke-width="0.5" opacity="0.5"/>
+  <!-- Right side data panel -->
+  <g font-family="'Courier New',monospace" font-size="8" fill="#00d4ff" opacity="0.5" text-anchor="end">
+    <text x="880" y="55" letter-spacing="2">MIS.SYS</text>
+    <text x="880" y="70" letter-spacing="2">ANALYST</text>
+    <text x="880" y="90" fill="#f5a623" letter-spacing="1">DATA.ENG</text>
+    <text x="880" y="110" letter-spacing="1">EXCEL.AI</text>
+  </g>
 
-  <!-- Main name — HARISH -->
-  <text x="450" y="120" 
-    font-family="'Courier New', monospace" 
-    font-size="72" 
-    font-weight="900"
-    fill="#f5a623"
-    text-anchor="middle"
-    letter-spacing="18"
-    filter="url(#glow-strong)">HARISH</text>
+  <!-- Orbiting ellipses -->
+  <ellipse cx="450" cy="100" rx="320" ry="25" fill="none" stroke="#f5a623" stroke-width="0.4" opacity="0.12" stroke-dasharray="5,4">
+    <animateTransform attributeName="transform" type="rotate" values="0 450 100;360 450 100" dur="18s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="450" cy="100" rx="280" ry="18" fill="none" stroke="#00d4ff" stroke-width="0.4" opacity="0.1" stroke-dasharray="4,5">
+    <animateTransform attributeName="transform" type="rotate" values="360 450 100;0 450 100" dur="12s" repeatCount="indefinite"/>
+  </ellipse>
 
-  <!-- Main name — AMEER -->
-  <text x="450" y="185"
-    font-family="'Courier New', monospace"
-    font-size="72"
-    font-weight="900"
-    fill="none"
-    stroke="#00d4ff"
-    stroke-width="1.5"
-    text-anchor="middle"
-    letter-spacing="22"
-    filter="url(#glow-cyan)">AMEER</text>
+  <!-- Central HUD display (no name — capsule render has it) -->
+  <text x="450" y="82" font-family="'Courier New',monospace" font-size="10" fill="#00d4ff" text-anchor="middle" letter-spacing="8" opacity="0.6">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</text>
+  <text x="450" y="105" font-family="'Courier New',monospace" font-size="28" font-weight="900" fill="#f5a623" text-anchor="middle" letter-spacing="14" filter="url(#glow-big)">H · A</text>
+  <text x="450" y="128" font-family="'Courier New',monospace" font-size="10" fill="#00d4ff" text-anchor="middle" letter-spacing="8" opacity="0.6">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</text>
 
-  <!-- Animated underline -->
-  <rect x="200" y="195" width="500" height="1.5" fill="url(#cyan)" opacity="0.8">
-    <animate attributeName="width" values="0;500;0" dur="3s" repeatCount="indefinite"/>
-    <animate attributeName="x" values="450;200;450" dur="3s" repeatCount="indefinite"/>
+  <!-- Status bar bottom -->
+  <text x="450" y="170" font-family="'Courier New',monospace" font-size="9" fill="#22d3a0" text-anchor="middle" letter-spacing="5" opacity="0.8">MIS ANALYST  ·  DATA SPECIALIST  ·  EXCEL AUTOMATION</text>
+
+  <!-- Animated amber underline -->
+  <rect x="350" y="173" width="200" height="1" fill="url(#amberline)">
+    <animate attributeName="width" values="0;200;0" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="450;350;450" dur="3s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- Role text -->
-  <text x="450" y="230"
-    font-family="'Courier New', monospace"
-    font-size="13"
-    fill="#22d3a0"
-    text-anchor="middle"
-    letter-spacing="6"
-    opacity="0.9">MIS ANALYST  ·  DATA SPECIALIST  ·  EXCEL AUTOMATION</text>
-
-  <!-- Status indicator -->
-  <circle cx="270" cy="255" r="4" fill="#22d3a0" filter="url(#glow-cyan)">
-    <animate attributeName="opacity" values="1;0.2;1" dur="1.5s" repeatCount="indefinite"/>
-  </circle>
-  <text x="282" y="259" font-family="'Courier New', monospace" font-size="10" fill="#22d3a0" letter-spacing="2">OPEN TO OPPORTUNITIES</text>
-
   <!-- Top label -->
-  <text x="30" y="32" font-family="'Courier New', monospace" font-size="9" fill="#f5a623" opacity="0.6" letter-spacing="3">PORTFOLIO.v2.0</text>
-  <text x="700" y="32" font-family="'Courier New', monospace" font-size="9" fill="#00d4ff" opacity="0.6" letter-spacing="3">DELHI · INDIA</text>
+  <text x="50" y="22" font-family="'Courier New',monospace" font-size="8" fill="#f5a623" opacity="0.5" letter-spacing="3">PORTFOLIO.v2.0 // INITIALIZED</text>
+  <text x="700" y="22" font-family="'Courier New',monospace" font-size="8" fill="#00d4ff" opacity="0.5" letter-spacing="2">DELHI · INDIA · 2026</text>
 
-  <!-- Animated orbit ring (pseudo 3D feel) -->
-  <ellipse cx="450" cy="140" rx="380" ry="30" fill="none" stroke="#f5a623" stroke-width="0.5" opacity="0.15" stroke-dasharray="6,4">
-    <animateTransform attributeName="transform" type="rotate" values="0 450 140;360 450 140" dur="20s" repeatCount="indefinite"/>
-  </ellipse>
-  <ellipse cx="450" cy="140" rx="340" ry="20" fill="none" stroke="#00d4ff" stroke-width="0.5" opacity="0.12" stroke-dasharray="4,6">
-    <animateTransform attributeName="transform" type="rotate" values="360 450 140;0 450 140" dur="15s" repeatCount="indefinite"/>
-  </ellipse>
-
+  <!-- Floating hex values -->
+  <g font-family="monospace" font-size="8" opacity="0.2">
+    <text x="110" y="45" fill="#f5a623">0xF5A6</text>
+    <text x="750" y="160" fill="#00d4ff">0x00D4</text>
+    <text x="110" y="165" fill="#22d3a0">0x22D3</text>
+    <text x="750" y="45" fill="#f5a623">0xFF23</text>
+  </g>
 </svg>
