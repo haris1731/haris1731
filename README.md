@@ -10,7 +10,7 @@
 
 <!-- ANIMATED TYPING ROLES -->
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=800&color=F5A623&center=true&vCenter=true&multiline=false&width=700&lines=Turning+raw+data+into+decisions+that+matter+📊;Excel+wizard+%7C+Dashboard+architect+%7C+Automator+⚡;Reducing+reporting+time+by+50%25+🚀;MIS+Analyst+%40+Creadgenics+·+Delhi+📍;AWS+Certified+%7C+SQL+%7C+Power+BI+%7C+VBA+💡" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=800&color=F5A623&center=true&vCenter=true&multiline=false&width=700&lines=Turning+raw+data+into+decisions+that+matter+%F0%9F%93%8A;Excel+wizard+%7C+Dashboard+architect+%7C+Automator+%E2%9A%A1;Reducing+reporting+time+by+50%25+%F0%9F%9A%80;MIS+Analyst+%40+Creadgenics+%C2%B7+Delhi+%F0%9F%93%8D;AWS+Certified+%7C+SQL+%7C+Power+BI+%7C+VBA+%F0%9F%92%A1" alt="Typing SVG"/>
 </div>
 
 <br/>
