@@ -18,7 +18,7 @@
     <div align="center">
     
     [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Visit_Now-F5A623?style=for-the-badge&labelColor=0d1220)](https://haris1731.github.io/portfolio)
-    [![Email](https://img.shields.io/badge/Gmail-haris17311%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1220)](mailto:harisahmed1731@gmail.com)
+    [![Email](https://img.shields.io/badge/Gmail-harisahmed1731%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1220)](mailto:harisahmed1731@gmail.com)
     [![Views](https://komarev.com/ghpvc/?username=haris1731&color=F5A623&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/haris1731)
     
     </div>
