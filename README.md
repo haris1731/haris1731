@@ -18,7 +18,7 @@
 <div align="center">
 
 [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Visit_Now-F5A623?style=for-the-badge&labelColor=0d1220)](https://haris1731.github.io/portfolio)
-[![Email](https://img.shields.io/badge/Gmail-haris17311%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1220)](mailto:haris17311@gmail.com)
+[![Email](https://img.shields.io/badge/Gmail-haris17311%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1220)](mailto:harisahmed1731@gmail.com)
 [![Views](https://komarev.com/ghpvc/?username=haris1731&color=F5A623&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/haris1731)
 
 </div>
@@ -203,7 +203,7 @@ for key, value in harish.items():
 <div align="center">
 
 [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-haris1731.github.io/portfolio-F5A623?style=for-the-badge&labelColor=0d1220)](https://haris1731.github.io/portfolio)
-[![Email](https://img.shields.io/badge/📧_Email-haris17311%40gmail.com-EA4335?style=for-the-badge&labelColor=0d1220)](mailto:haris17311@gmail.com)
+[![Email](https://img.shields.io/badge/📧_Email-haris17311%40gmail.com-EA4335?style=for-the-badge&labelColor=0d1220)](mailto:harisahmed1731@gmail.com)
 [![Phone](https://img.shields.io/badge/📞_Call-+91_8696746270-22d3a0?style=for-the-badge&labelColor=0d1220)](tel:+918696746270)
 
 </div>
