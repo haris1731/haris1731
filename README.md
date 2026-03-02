@@ -1,19 +1,23 @@
 <!-- ═══════════════════════════════════════════════════════════ -->
-<!--     HARISH AMEER — GITHUB PROFILE · SPECIAL EDITION        -->
+<!--     HARISH AMEER — GITHUB PROFILE · ULTIMATE EDITION       -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
+<!-- ANIMATED WAVE HEADER — most people don't know about capsule-render -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=120&section=header&text=HARISH%20AMEER&fontSize=42&fontColor=F5A623&animation=fadeIn&fontAlignY=65&desc=MIS%20Analyst%20%7C%20Data%20Specialist%20%7C%20Excel%20Automation%20Expert&descSize=16&descAlignY=85&descColor=ffffff" width="100%"/>
+
+<!-- CUSTOM ANIMATED BANNER -->
 <div align="center">
 <img src="./banner.svg" width="100%" alt="Harish Ameer"/>
 </div>
 
-<br/>
-
+<!-- TYPING SVG -->
 <div align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=800&color=F5A623&center=true&vCenter=true&multiline=false&width=700&lines=Turning+raw+data+into+decisions+that+matter;Excel+wizard+%7C+Dashboard+architect+%7C+Automator;Reducing+reporting+time+by+50%25;MIS+Analyst+%40+Creadgenics+%C2%B7+Delhi;AWS+Certified+%7C+SQL+%7C+Power+BI+%7C+VBA" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=800&color=F5A623&center=true&vCenter=true&width=700&lines=Turning+raw+data+into+decisions+that+matter;Excel+wizard+%7C+Dashboard+architect+%7C+Automator;Reducing+reporting+time+by+50%25;MIS+Analyst+%40+Creadgenics+%C2%B7+Delhi;AWS+Certified+%7C+SQL+%7C+Power+BI+%7C+VBA" alt="Typing SVG"/>
 </div>
 
 <br/>
 
+<!-- BADGES -->
 <div align="center">
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Now-F5A623?style=for-the-badge&labelColor=0d1220)](https://haris1731.github.io/portfolio)
@@ -24,18 +28,38 @@
 
 ---
 
+<!-- GITHUB TROPHIES — secret feature most people don't add -->
+<div align="center">
+
+### `$ ./trophies.sh`
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=haris1731&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
+
+---
+
 ## `$ whoami`
 
 ```yaml
 ╔══════════════════════════════════════════════════════════╗
 ║  Name      →  Harish Ameer                               ║
-║  Role      →  MIS Analyst @ Credgenics                 ║
+║  Role      →  MIS Analyst @ Creadgenics                  ║
 ║  Location  →  Delhi, India                               ║
 ║  Focus     →  Data · Automation · Intelligence Systems   ║
 ║  Status    →  Open to Opportunities                      ║
 ║  Mission   →  Turn messy data → powerful decisions       ║
 ╚══════════════════════════════════════════════════════════╝
 ```
+
+<!-- RANDOM DEV QUOTE — changes every page load, very rare feature -->
+<div align="center">
+
+> **Today's Quote:**
+
+[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&border=true&borderColor=F5A623&quoteColor=F5A623&authorColor=00d4ff)](https://github.com/piyushsuthar/github-readme-quotes)
+
+</div>
 
 ---
 
@@ -89,7 +113,7 @@ Process Automation   █████████████████░░�
 ## `$ cat experience.log`
 
 <details>
-<summary><b>Credgenics— MIS Analyst · Jan 2025 → Present · Click to expand</b></summary>
+<summary><b>🟢 Creadgenics — MIS Analyst · Jan 2025 → Present · Click to expand</b></summary>
 <br/>
 
 ```
@@ -107,7 +131,7 @@ Process Automation   █████████████████░░�
 </details>
 
 <details>
-<summary><b>DKC Exports — MIS Executive · Jul 2024 → Jan 2025 · Click to expand</b></summary>
+<summary><b>⚡ DKC Exports — MIS Executive · Jul 2024 → Jan 2025 · Click to expand</b></summary>
 <br/>
 
 ```
@@ -124,7 +148,7 @@ Process Automation   █████████████████░░�
 </details>
 
 <details>
-<summary><b>Easy Source HR — Client Servicing · Jan 2024 → Jun 2024 · Click to expand</b></summary>
+<summary><b>📋 Easy Source HR — Client Servicing · Jan 2024 → Jun 2024 · Click to expand</b></summary>
 <br/>
 
 ```
@@ -170,9 +194,20 @@ Process Automation   █████████████████░░�
 
 </div>
 
+<!-- 3D CONTRIBUTION CALENDAR — very rare, almost nobody uses this -->
 <div align="center">
 
-### Contribution Snake
+### `$ render --3d contributions`
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=haris1731&bg_color=0d1220&color=F5A623&line=00d4ff&point=F5A623&area=true&hide_border=false&border_color=F5A623&area_color=00d4ff" width="100%"/>
+
+</div>
+
+<!-- SNAKE ANIMATION -->
+<div align="center">
+
+### `$ snake --eat-contributions`
+
 <img src="https://raw.githubusercontent.com/haris1731/haris1731/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
 
 </div>
@@ -222,3 +257,6 @@ for key, value in harish.items():
 **Made with love + lots of Excel formulas**
 
 </div>
+
+<!-- ANIMATED WAVE FOOTER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=100&section=footer&animation=fadeIn" width="100%"/>
