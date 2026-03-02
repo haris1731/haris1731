@@ -159,9 +159,9 @@ Process Automation   █████████████████░░�
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=haris1731&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&border_color=F5A623&title_color=F5A623&icon_color=00d4ff&bg_color=0d1220&text_color=ffffff"/>
+<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=haris1731&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&border_color=F5A623&title_color=F5A623&icon_color=00d4ff&bg_color=0d1220&text_color=ffffff"/>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=haris1731&layout=compact&theme=tokyonight&border_color=F5A623&title_color=F5A623&bg_color=0d1220&text_color=ffffff"/>
+<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=haris1731&layout=compact&theme=tokyonight&border_color=F5A623&title_color=F5A623&bg_color=0d1220&text_color=ffffff"/>
 
 </div>
 
