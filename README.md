@@ -38,7 +38,7 @@
 
 ### `🏆 $ ./achievements.sh`
 
-[![Trophies](https://github-profile-trophy.vercel.app/?username=haris1731&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C)](https://github.com/ryo-ma/github-profile-trophy)
+[![Trophies](https://github-profile-trophy.vercel.app/?username=haris1731&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=7)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
